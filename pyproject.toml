@@ -1,0 +1,36 @@
+[project]
+name = "template-python-uv-package"
+version = "0.0.0"
+description = "Opinionated Python + uv template for new packages."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "João Palmeiro", email = "joaopalmeiro@proton.me" }]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+]
+
+[project.urls]
+Issues = "https://github.com/joaopalmeiro/template-python-uv-package/issues"
+Source = "https://github.com/joaopalmeiro/template-python-uv-package"
+
+[dependency-groups]
+dev = ["mypy[faster-cache]==1.16.1", "ruff==0.11.2"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
