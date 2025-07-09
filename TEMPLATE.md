@@ -8,6 +8,10 @@
   - https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
   - [change `uv version` to be an interface for project version reads and edits](https://github.com/astral-sh/uv/pull/12349)
   - https://docs.astral.sh/uv/reference/cli/#uv-version
+    - https://github.com/astral-sh/uv/releases/tag/0.7.0
+  - https://github.com/astral-sh/uv/releases/tag/0.7.19
+    - "The uv build backend is now stable, and considered ready for production use."
+    - https://docs.astral.sh/uv/concepts/build-backend/
 - https://github.com/ninoseki/uv-dynamic-versioning
   - https://docs.python.org/3.10/library/importlib.metadata.html
   - https://versioningit.readthedocs.io/en/stable/runtime-version.html
@@ -18,8 +22,4 @@
 
 ```bash
 uv init --lib template-python-uv-package
-```
-
-```bash
-uv run python -c "from template_python_uv_package import __version__; print(__version__)"
 ```

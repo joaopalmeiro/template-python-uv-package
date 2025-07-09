@@ -4,6 +4,20 @@ Opinionated Python + uv template for new packages.
 
 ## Development
 
+Install [uv](https://docs.astral.sh/uv/getting-started/installation/) (if necessary):
+
+```bash
+curl -LsSf https://astral.sh/uv/0.7.19/install.sh | sh
+```
+
+```bash
+uv python install
+```
+
+```bash
+uv run python -c "from template_python_uv_package import __version__; print(__version__)"
+```
+
 ## Deployment
 
 ```bash
@@ -23,7 +37,7 @@ uv build
 ```
 
 ```bash
-echo "v$(uv version)" | pbcopy
+echo "v$(uv version --short)" | pbcopy
 ```
 
 - Commit and push changes.
