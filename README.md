@@ -18,6 +18,26 @@ uv python install
 uv run python -c "from template_python_uv_package import __version__; print(__version__)"
 ```
 
+```bash
+source .venv/bin/activate
+```
+
+```bash
+mypy
+```
+
+```bash
+ruff check --fix
+```
+
+```bash
+ruff format
+```
+
+```bash
+deactivate
+```
+
 ## Deployment
 
 ```bash

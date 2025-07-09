@@ -17,9 +17,28 @@
   - https://versioningit.readthedocs.io/en/stable/runtime-version.html
   - https://github.com/astral-sh/uv/issues/8714#issuecomment-3034970864
 - https://sarahglasmacher.com/how-to-build-python-package-uv/
+- https://docs.astral.sh/uv/getting-started/installation/#uninstallation
+- [✨ How to define custom commands like `tool.rye.scripts`](https://github.com/astral-sh/uv/issues/6302)
+  - https://github.com/phihung/tomlscript
+  - https://mise.jdx.dev/
+- [Using `uv run` as a task runner](https://github.com/astral-sh/uv/issues/5903)
+  - https://github.com/taskipy/taskipy
+  - https://github.com/nat-n/poethepoet
 
 ## Commands
 
 ```bash
 uv init --lib template-python-uv-package
+```
+
+```bash
+uv lock --check
+```
+
+```bash
+uv lock --dry-run
+```
+
+```bash
+uv sync
 ```
