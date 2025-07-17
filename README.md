@@ -94,11 +94,7 @@ echo "v$(uv version --short)" | pbcopy
 - Check [GitHub](https://github.com/joaopalmeiro/template-python-uv-package/tags).
 
 ```bash
-hatch publish
+uv publish
 ```
 
 - Check [PyPI](https://pypi.org/project/template-python-uv-package/).
-
-```bash
-uv publish
-```
