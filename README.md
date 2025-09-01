@@ -9,6 +9,7 @@ Opinionated [Python](https://www.python.org/) + [uv](https://github.com/astral-s
 - [Source code](https://github.com/joaopalmeiro/template-python-uv-package)
 - [PyPI package](https://pypi.org/project/template-python-uv-package/)
 - [Snyk Advisor](https://snyk.io/advisor/python/template-python-uv-package)
+- [PyPack Trends](https://pypacktrends.com/?packages=template-python-uv-package&time_range=allTime)
 
 ## Getting Started
 
@@ -36,7 +37,7 @@ npx giget github:joaopalmeiro/template-python-uv-package . --force
 Install [uv](https://docs.astral.sh/uv/getting-started/installation/) (if necessary):
 
 ```bash
-curl -LsSf https://astral.sh/uv/0.7.19/install.sh | sh
+curl -LsSf https://astral.sh/uv/0.8.12/install.sh | sh
 ```
 
 ```bash

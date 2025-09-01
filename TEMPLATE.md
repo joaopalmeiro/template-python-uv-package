@@ -42,3 +42,11 @@ uv lock --dry-run
 ```bash
 uv sync
 ```
+
+## Snippets
+
+```toml
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+```
