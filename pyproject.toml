@@ -34,7 +34,7 @@ Issues = "https://github.com/joaopalmeiro/template-python-uv-package/issues"
 Source = "https://github.com/joaopalmeiro/template-python-uv-package"
 
 [dependency-groups]
-dev = ["mypy[faster-cache]==1.16.1", "ruff==0.11.2"]
+dev = ["mypy[faster-cache]==1.16.1", "ruff==0.15.1"]
 
 [build-system]
 requires = ["uv_build==0.8.12"]
