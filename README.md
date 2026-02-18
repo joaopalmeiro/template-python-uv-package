@@ -8,8 +8,9 @@ Opinionated [Python](https://www.python.org/) + [uv](https://github.com/astral-s
 
 - [Source code](https://github.com/joaopalmeiro/template-python-uv-package)
 - [PyPI package](https://pypi.org/project/template-python-uv-package/)
-- [Snyk Advisor](https://snyk.io/advisor/python/template-python-uv-package)
 - [PyPack Trends](https://pypacktrends.com/?packages=template-python-uv-package&time_range=allTime)
+- [Snyk](https://security.snyk.io/package/pip/template-python-uv-package)
+- [Socket](https://socket.dev/pypi/package/template-python-uv-package)
 
 ## Getting Started
 

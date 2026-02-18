@@ -24,6 +24,7 @@
 - [Using `uv run` as a task runner](https://github.com/astral-sh/uv/issues/5903)
   - https://github.com/taskipy/taskipy
   - https://github.com/nat-n/poethepoet
+- [Snyk Advisor](https://snyk.io/advisor/python/template-python-uv-package)
 
 ## Commands
 
