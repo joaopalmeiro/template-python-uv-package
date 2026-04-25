@@ -25,6 +25,7 @@
   - https://github.com/taskipy/taskipy
   - https://github.com/nat-n/poethepoet
 - [Snyk Advisor](https://snyk.io/advisor/python/template-python-uv-package)
+- "8. Open the [pyproject.toml](pyproject.toml) file and add the package-specific dependencies. See the [`Managing dependencies`](https://docs.astral.sh/uv/concepts/projects/dependencies/) page in the uv documentation for more information (if necessary)."
 
 ## Commands
 

@@ -19,7 +19,7 @@ Opinionated [Python](https://www.python.org/) + [uv](https://github.com/astral-s
 2. Get the template files:
 
 ```bash
-npx giget github:joaopalmeiro/template-python-uv-package . --force
+npx giget@3.2.0 github:joaopalmeiro/template-python-uv-package . --force
 ```
 
 3. Search for `template-python-uv-package` and replace it with the package name. Ignore the template repository URL in the [NOTES.md](NOTES.md) file.
@@ -27,12 +27,11 @@ npx giget github:joaopalmeiro/template-python-uv-package . --force
 5. Search for `Opinionated [Python](https://www.python.org/) + [uv](https://github.com/astral-sh/uv) template for new packages.`/`Opinionated Python + uv template for new packages.` and replace it with the (short) package description.
 6. Search for `João Palmeiro` and replace it with the author's name.
 7. Search for `joaopalmeiro@proton.me` and replace it with the author's email address.
-8. Open the [pyproject.toml](pyproject.toml) file and add the package-specific dependencies. See the [`Managing dependencies`](https://docs.astral.sh/uv/concepts/projects/dependencies/) page in the uv documentation for more information (if necessary).
-9. Update the `Source code` link at the top to the package repository link (if necessary).
-10. Change `GitHub` in the [`Deployment`](#deployment) section to `GitLab` or `Codeberg` and update the link to the corresponding Tags page (if necessary).
-11. Update the `Issues` and `Source` fields in the [pyproject.toml](pyproject.toml) file with their respective repository-related links (if necessary).
-12. Delete the [TEMPLATE.md](TEMPLATE.md) file.
-13. Delete the [`Getting Started`](#getting-started) section.
+8. Update the `Source code` link at the top to the package repository link (if necessary).
+9. Change `GitHub` in the [`Deployment`](#deployment) section to `GitLab` or `Codeberg` and update the link to the corresponding Tags page (if necessary).
+10. Update the `Issues` and `Source` fields in the [pyproject.toml](pyproject.toml) file with their respective repository-related links (if necessary).
+11. Delete the [TEMPLATE.md](TEMPLATE.md) file.
+12. Delete the [`Getting Started`](#getting-started) section.
 
 ## Development
 
