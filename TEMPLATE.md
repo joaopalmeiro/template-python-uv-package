@@ -45,6 +45,18 @@ uv lock --dry-run
 uv sync
 ```
 
+```bash
+source .venv/bin/activate
+```
+
+```bash
+deactivate
+```
+
+```bash
+rm -rf .mypy_cache/ .ruff_cache/ .venv/ dist/ src/template_python_uv_package/__pycache__/
+```
+
 ## Snippets
 
 ```toml

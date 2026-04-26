@@ -38,7 +38,7 @@ npx giget@3.2.0 github:joaopalmeiro/template-python-uv-package . --force
 Install [uv](https://docs.astral.sh/uv/getting-started/installation/) (if necessary):
 
 ```bash
-curl -LsSf https://astral.sh/uv/0.8.12/install.sh | sh
+curl -LsSf https://astral.sh/uv/0.11.6/install.sh | sh
 ```
 
 ```bash
@@ -46,27 +46,23 @@ uv python install
 ```
 
 ```bash
+uv audit --verbose
+```
+
+```bash
 uv run python -c "from template_python_uv_package import __version__; print(__version__)"
 ```
 
 ```bash
-source .venv/bin/activate
+uv run mypy
 ```
 
 ```bash
-mypy
+uv run ruff format
 ```
 
 ```bash
-ruff check --fix
-```
-
-```bash
-ruff format
-```
-
-```bash
-deactivate
+uv run ruff check --fix
 ```
 
 ## Deployment
