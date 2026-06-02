@@ -34,7 +34,7 @@ npx giget@3.2.0 github:joaopalmeiro/template-python-uv-package . --force
 6. Search for `João Palmeiro` and replace it with the author's name.
 7. Search for `joaopalmeiro@proton.me` and replace it with the author's email address.
 8. Update the `Source code` link at the top to the package repository link (if necessary).
-9. Change `GitHub` in the [`Deployment`](#deployment) section to `GitLab` or `Codeberg` and update the link to the corresponding Tags page (if necessary).
+9. Update `GitHub` to `GitLab` in the [`Deployment`](#deployment) section, as well as `GitHub Actions` to `GitLab CI/CD` and each of the related links (if necessary).
 10. Update the `Issues` and `Source` fields in the [pyproject.toml](pyproject.toml) file with their respective repository-related links (if necessary).
 11. Delete the [TEMPLATE.md](TEMPLATE.md) file.
 12. Delete the [`Getting Started`](#getting-started) section.
@@ -108,5 +108,5 @@ echo "v$(uv version --short)" | pbcopy
 
 - Commit and push changes.
 - Create a tag on [GitHub Desktop](https://github.blog/2020-05-12-create-and-push-tags-in-the-latest-github-desktop-2-5-release/).
-- Check [GitHub](https://github.com/joaopalmeiro/template-python-uv-package/tags).
+- Check GitHub: [Tags](https://github.com/joaopalmeiro/template-python-uv-package/tags) and [Actions](https://github.com/joaopalmeiro/template-python-uv-package/actions).
 - Check [PyPI](https://pypi.org/project/template-python-uv-package/).

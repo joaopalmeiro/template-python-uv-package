@@ -1,6 +1,6 @@
 [project]
 name = "template-python-uv-package"
-version = "0.1.0"
+version = "0.0.0"
 description = "Opinionated Python + uv template for new packages."
 readme = "README.md"
 requires-python = ">=3.10"
