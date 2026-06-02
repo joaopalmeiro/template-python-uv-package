@@ -8,6 +8,10 @@ Opinionated [Python](https://www.python.org/) + [uv](https://github.com/astral-s
 
 - [Source code](https://github.com/joaopalmeiro/template-python-uv-package)
 - [PyPI package](https://pypi.org/project/template-python-uv-package/)
+- [ClickPy](https://clickpy.clickhouse.com/dashboard/template-python-uv-package)
+- [ecosyte.ms](https://packages.ecosyste.ms/registries/pypi.org/packages/template-python-uv-package)
+- [Libraries.io](https://libraries.io/pypi/template-python-uv-package)
+- [Open Source Insights](https://deps.dev/pypi/template-python-uv-package)
 - [OSV](https://osv.dev/list?q=template-python-uv-package&ecosystem=PyPI)
 - [PyPack Trends](https://pypacktrends.com/?packages=template-python-uv-package&time_range=allTime)
 - [Snyk](https://security.snyk.io/package/pip/template-python-uv-package)
