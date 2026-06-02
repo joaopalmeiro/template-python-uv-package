@@ -39,7 +39,7 @@ npx giget@3.2.0 github:joaopalmeiro/template-python-uv-package . --force
 
 ## Development
 
-Install [uv](https://docs.astral.sh/uv/getting-started/installation/) (if necessary):
+Install [uv](https://docs.astral.sh/uv/getting-started/installation/), [1Password](https://1password.com/downloads/), and [1Password CLI](https://developer.1password.com/docs/cli/get-started/) (if necessary):
 
 ```bash
 curl -LsSf https://astral.sh/uv/0.11.6/install.sh | sh
@@ -96,7 +96,7 @@ echo "v$(uv version --short)" | pbcopy
 - Check [GitHub](https://github.com/joaopalmeiro/template-python-uv-package/tags).
 
 ```bash
-uv publish
+UV_PUBLISH_TOKEN=""op://Development/PyPI/UV_PUBLISH_TOKEN"" op run -- uv publish
 ```
 
 - Check [PyPI](https://pypi.org/project/template-python-uv-package/).
