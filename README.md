@@ -13,7 +13,9 @@ Opinionated [Python](https://www.python.org/) + [uv](https://github.com/astral-s
 - [Libraries.io](https://libraries.io/pypi/template-python-uv-package)
 - [Open Source Insights](https://deps.dev/pypi/template-python-uv-package)
 - [OSV](https://osv.dev/list?q=template-python-uv-package&ecosystem=PyPI)
+- [PePy](https://pepy.tech/projects/template-python-uv-package)
 - [PyPack Trends](https://pypacktrends.com/?packages=template-python-uv-package&time_range=allTime)
+- [PyPI Stats](https://pypistats.org/search/template-python-uv-package)
 - [Snyk](https://security.snyk.io/package/pip/template-python-uv-package)
 - [Socket](https://socket.dev/pypi/package/template-python-uv-package)
 
