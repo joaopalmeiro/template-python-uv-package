@@ -96,7 +96,7 @@ echo "v$(uv version --short)" | pbcopy
 - Check [GitHub](https://github.com/joaopalmeiro/template-python-uv-package/tags).
 
 ```bash
-UV_PUBLISH_TOKEN=""op://Development/PyPI/UV_PUBLISH_TOKEN"" op run -- uv publish
+UV_PUBLISH_TOKEN="op://Development/PyPI/UV_PUBLISH_TOKEN" op run -- uv publish
 ```
 
 - Check [PyPI](https://pypi.org/project/template-python-uv-package/).

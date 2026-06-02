@@ -3,7 +3,7 @@ revision = 3
 requires-python = ">=3.10"
 
 [options]
-exclude-newer = "2026-05-26T06:07:33.611239Z"
+exclude-newer = "2026-05-26T06:09:19.1922Z"
 exclude-newer-span = "P7D"
 
 [[package]]
@@ -194,7 +194,7 @@ wheels = [
 
 [[package]]
 name = "template-python-uv-package"
-version = "0.0.1"
+version = "0.0.0"
 source = { editable = "." }
 
 [package.dev-dependencies]
