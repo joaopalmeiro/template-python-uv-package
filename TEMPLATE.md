@@ -54,6 +54,7 @@
   - https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/
 - https://github.com/actions/download-artifact
 - https://docs.gitlab.com/ci/environments/
+- ``9. Change `GitHub` in the [`Deployment`](#deployment) section to `GitLab` or `Codeberg` and update the link to the corresponding Tags page (if necessary).``
 
 ## Commands
 
@@ -145,7 +146,7 @@ jobs:
         uses: pypa/gh-action-pypi-publish@7f25271a4aa483500f742f9492b2ab5648d61011 # v1.12.4
 ```
 
-```markdown
+````markdown
 ## Development
 
 Install [uv](https://docs.astral.sh/uv/getting-started/installation/), [1Password](https://1password.com/downloads/), and [1Password CLI](https://developer.1password.com/docs/cli/get-started/) (if necessary):
@@ -209,4 +210,4 @@ UV_PUBLISH_TOKEN="op://Development/PyPI/UV_PUBLISH_TOKEN" op run -- uv publish
 ```
 
 - Check [PyPI](https://pypi.org/project/template-python-uv-package/).
-```
+````
