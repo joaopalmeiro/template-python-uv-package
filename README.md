@@ -41,7 +41,7 @@ npx giget@3.2.0 github:joaopalmeiro/template-python-uv-package . --force
 
 ## Development
 
-Install [uv](https://docs.astral.sh/uv/getting-started/installation/), [1Password](https://1password.com/downloads/), and [1Password CLI](https://developer.1password.com/docs/cli/get-started/) (if necessary):
+Install [uv](https://docs.astral.sh/uv/getting-started/installation/), [zizmor](https://docs.zizmor.sh/installation/), and [pinact](https://github.com/suzuki-shunsuke/pinact/blob/main/INSTALL.md) (if necessary):
 
 ```bash
 curl -LsSf https://astral.sh/uv/0.11.6/install.sh | sh
@@ -71,7 +71,24 @@ uv run ruff format
 uv run ruff check --fix
 ```
 
+```bash
+uv build
+```
+
+### GitHub Actions
+
+```bash
+zizmor .
+```
+
+```bash
+pinact run -u --min-age 7
+```
+
 ## Deployment
+
+- Create the `release` [GitHub Actions environment](https://github.com/joaopalmeiro/template-python-uv-package/settings/environments) (if necessary).
+- [Add a trusted publisher to an existing PyPI project](https://docs.pypi.org/trusted-publishers/adding-a-publisher/) or [create a new one with a trusted publisher](https://docs.pypi.org/trusted-publishers/creating-a-project-through-oidc/) (if necessary).
 
 ```bash
 uv version --bump patch
@@ -86,19 +103,10 @@ uv version --bump major
 ```
 
 ```bash
-uv build
-```
-
-```bash
 echo "v$(uv version --short)" | pbcopy
 ```
 
 - Commit and push changes.
 - Create a tag on [GitHub Desktop](https://github.blog/2020-05-12-create-and-push-tags-in-the-latest-github-desktop-2-5-release/).
 - Check [GitHub](https://github.com/joaopalmeiro/template-python-uv-package/tags).
-
-```bash
-UV_PUBLISH_TOKEN="op://Development/PyPI/UV_PUBLISH_TOKEN" op run -- uv publish
-```
-
 - Check [PyPI](https://pypi.org/project/template-python-uv-package/).
