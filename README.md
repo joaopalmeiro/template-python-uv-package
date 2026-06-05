@@ -41,7 +41,9 @@ npx giget@3.2.0 github:joaopalmeiro/template-python-uv-package . --force
 
 ## Development
 
-Install [uv](https://docs.astral.sh/uv/getting-started/installation/), [zizmor](https://docs.zizmor.sh/installation/), and [pinact](https://github.com/suzuki-shunsuke/pinact/blob/main/INSTALL.md) (if necessary):
+Install [zizmor](https://docs.zizmor.sh/installation/) and [pinact](https://github.com/suzuki-shunsuke/pinact/blob/main/INSTALL.md) (if necessary).
+
+Install [uv](https://docs.astral.sh/uv/getting-started/installation/) (if necessary):
 
 ```bash
 curl -LsSf https://astral.sh/uv/0.11.6/install.sh | sh
